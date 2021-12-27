@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Embedded\ESPProgrammer\ESPProgrammer.kicad_sch</source>
+    <date>27-12-2021 02:12:03 AM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP Programmer</title>
+        <company>Siriuspal</company>
+        <rev>1.0</rev>
+        <date>2021-12-26</date>
+        <source>ESPProgrammer.kicad_sch</source>
+        <comment number="1" value="ESP32 USB UART Programmer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 0603</field>
+        <field name="MPN">GRM188R61E106KA73J</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R61E106KA73J"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>586e42f8-2d81-4586-aa06-217426e8870d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V 0603</field>
+        <field name="MPN">C0603C104Z3VAC7867</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603C104Z3VAC7867"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9eedc8f7-9afc-49e7-8979-1bbdc40da357</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 0603</field>
+        <field name="MPN">GRM188R61E106KA73J</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R61E106KA73J"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4179407-3ea0-42bb-8967-6d19a2cca1d0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 0603</field>
+        <field name="MPN">GRM188R61E106KA73J</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R61E106KA73J"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4331934c-bd45-467a-8f5f-5e1eeefae95f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>YL LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">LED YELLOW CLEAR 0603 SMD</field>
+        <field name="MPN">SML-311YTT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="SML-311YTT86"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Description" value="LED YELLOW CLEAR 0603 SMD"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>501985fd-73cc-464d-b22c-d708f3928b57</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>OR LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">LED ORANGE CLEAR 0603 SMD</field>
+        <field name="MPN">SML-311DTT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="SML-311DTT86"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Description" value="LED ORANGE CLEAR 0603 SMD"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a03bf57-c9bc-4512-a7bc-36f5a09d6935</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RD LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">LED RED CLEAR 0603 SMD</field>
+        <field name="MPN">SML-311UTT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="SML-311UTT86"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Description" value="LED RED CLEAR 0603 SMD"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75d47feb-9bf5-4272-b88d-e8f0d28e5a23</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>GN LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">LED GREEN CLEAR 0603 SMD</field>
+        <field name="MPN">SML-310PTT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="SML-310PTT86"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Description" value="LED GREEN CLEAR 0603 SMD"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07bfe7af-b9df-4318-ab46-e0e6dfee2925</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FB 2A 0603</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">FERRITE BEAD 180 OHM 0603 1LN 2A</field>
+        <field name="MPN">MPZ1608S181ATAH0</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="MPN" value="MPZ1608S181ATAH0"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Description" value="FERRITE BEAD 180 OHM 0603 1LN 2A"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdbc4bcb-85ea-4846-8ca8-e4ec5ffeb6eb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB Micro B</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="Description">CONN RCPT USB2.0 MICRO B SMD R/A with TH Support Pins</field>
+        <field name="MPN">10118194-0001LF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="MPN" value="10118194-0001LF"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Description" value="CONN RCPT USB2.0 MICRO B SMD R/A with TH Support Pins"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc93fb0f-6623-4cb7-ad94-bf7fce6622dd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>BHR-06-VUA</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER VERT 6POS 2.54MM</field>
+        <field name="MPN">BHR-06-VUA</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="BHR-06-VUA"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Description" value="CONN HEADER VERT 6POS 2.54MM"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e19744dc-0cf4-40b6-a7d4-645d720c835a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JTAG Cable</value>
+      <datasheet>https://www.tag-connect.com/product/tc2030-idc-nl</datasheet>
+      <fields>
+        <field name="Description">“No Legs” 6-pin Plug-of-Nails™ Cable fitted with a 6-pin 0.1″ pitch ribbon connector.</field>
+        <field name="MPN">TC2030-IDC-NL</field>
+        <field name="Manufacturer">Tag-Connect</field>
+        <field name="Substitute Allowed">No</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="TC2030-IDC-NL"/>
+      <property name="Manufacturer" value="Tag-Connect"/>
+      <property name="Description" value="“No Legs” 6-pin Plug-of-Nails™ Cable fitted with a 6-pin 0.1″ pitch ribbon connector."/>
+      <property name="Substitute Allowed" value="No"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf220b8-e285-4b37-887e-1b768d4be09a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC846S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <fields>
+        <field name="Description">TRANS 2NPN 65V 0.1A 6TSSOP</field>
+        <field name="MPN">BC846S,125</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_Dual_NPN_NPN_E1B1C2E2B2C1" description="Dual NPN transistor, 6 pin package"/>
+      <property name="MPN" value="BC846S,125"/>
+      <property name="Manufacturer" value="Nexperia USA Inc."/>
+      <property name="Description" value="TRANS 2NPN 65V 0.1A 6TSSOP"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fca0e80e-48c1-42e2-acba-aecdff2a17b0 e2192bf3-fbe1-41d9-a9d4-419f5437dbee</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 22.1K OHM 1% 1/10W 0603</field>
+        <field name="MPN">RC0603FR-1322K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-1322K1L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 22.1K OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82a57a7f-21cb-451e-a571-39e6e4317696</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 47.5K OHM 1% 1/10W 0603</field>
+        <field name="MPN">RC0603FR-0747K5L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-0747K5L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 47.5K OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53cbba6f-58ff-42dc-b76d-e31f78e2626e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 1/10W 0603</field>
+        <field name="MPN">AC0603JR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="AC0603JR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970a1d26-07ed-4ee9-8182-eb1932a9ae2d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>787R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 787 OHM 1% 1/10W 0603</field>
+        <field name="MPN">RC0603FR-07787RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-07787RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 787 OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aeb1d53-41d9-4803-8b99-0c6a2207fd90</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>787R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 787 OHM 1% 1/10W 0603</field>
+        <field name="MPN">RC0603FR-07787RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-07787RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 787 OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f88198ac-ff7d-40c1-af1a-f6ab0943ee6e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>787R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 787 OHM 1% 1/10W 0603</field>
+        <field name="MPN">RC0603FR-07787RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-07787RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 787 OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7ce5445-dc7d-4f47-b4b1-166744b75639</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0603</field>
+        <field name="MPN">RT0603FRE0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RT0603FRE0710KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES SMD 10K OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>094dd701-64a5-480c-bfcb-868b307ade0b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0603</field>
+        <field name="MPN">RT0603FRE0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RT0603FRE0710KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES SMD 10K OHM 1% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c42d5b0-9522-47bf-8754-bc6ef83daeea</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 1/10W 0603</field>
+        <field name="MPN">AC0603JR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="AC0603JR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70ebd2ff-4d7c-4e9e-8606-0bfe4b8c6cfe</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 1/10W 0603</field>
+        <field name="MPN">AC0603JR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="AC0603JR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64ed4dff-e7c5-4ea9-8a51-a8fd674f6f43</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>560R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">RES 560 OHM 5% 1/10W 0603</field>
+        <field name="MPN">RC0603JR-07560RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603JR-07560RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Description" value="RES 560 OHM 5% 1/10W 0603"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d889d37-2183-4aff-815e-87e13ef36789</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CP2102N</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Description">IC USB TO UART BRIDGE QFN24</field>
+        <field name="MPN">CP2102N-A02-GQFN24R</field>
+        <field name="Manufacturer">Silicon Labs</field>
+        <field name="Substitute Allowed">No</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN24" description="USB to UART master bridge, QFN-24"/>
+      <property name="MPN" value="CP2102N-A02-GQFN24R"/>
+      <property name="Manufacturer" value="Silicon Labs"/>
+      <property name="Description" value="IC USB TO UART BRIDGE QFN24"/>
+      <property name="Substitute Allowed" value="No"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42c7b515-a1ec-40ad-a41f-5b3478e22ece</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SZNSP4201MR6T1G</value>
+      <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
+      <fields>
+        <field name="Description">TVS DIODE 5VWM 12VC 6TSOP</field>
+        <field name="MPN">SZNSP4201MR6T1G</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Diode" part="SZNSP4201MR6T1G" description="TVS DIODE 5VWM 12VC 6TSOP"/>
+      <property name="MPN" value="SZNSP4201MR6T1G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Description" value="TVS DIODE 5VWM 12VC 6TSOP"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56b7c359-2c83-4603-9368-da4e16d9d3e9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BD33HC0WEFJ-E2</value>
+      <footprint>Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm</footprint>
+      <fields>
+        <field name="Description">IC REG LINEAR 3.3V 1A 8HTSOP</field>
+        <field name="MPN">BD33HC0WEFJ-E2</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Substitute Allowed">No</field>
+      </fields>
+      <libsource lib="Power_Management" part="BD33HC0WEFJ-E2" description="IC REG LINEAR 3.3V 1A 8HTSOP"/>
+      <property name="MPN" value="BD33HC0WEFJ-E2"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Description" value="IC REG LINEAR 3.3V 1A 8HTSOP"/>
+      <property name="Substitute Allowed" value="No"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6a703c7-d19a-40b1-aec8-87bef3478f4d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SZNSP4201MR6T1G</value>
+      <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
+      <fields>
+        <field name="Description">TVS DIODE 5VWM 12VC 6TSOP</field>
+        <field name="MPN">SZNSP4201MR6T1G</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Substitute Allowed">Yes</field>
+      </fields>
+      <libsource lib="Diode" part="SZNSP4201MR6T1G" description="TVS DIODE 5VWM 12VC 6TSOP"/>
+      <property name="MPN" value="SZNSP4201MR6T1G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Description" value="TVS DIODE 5VWM 12VC 6TSOP"/>
+      <property name="Substitute Allowed" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESPProgrammer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68e0c1be-e1ff-4c93-b2c3-5bd70d03bad5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Dual_NPN_NPN_E1B1C2E2B2C1">
+      <description>Dual NPN transistor, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Dual_NPN_NPN_E1B1C2E2B2C1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SZNSP4201MR6T1G">
+      <description>TVS DIODE 5VWM 12VC 6TSOP</description>
+      <footprints>
+        <fp>TSOP6_3P1X1P7_ONS</fp>
+        <fp>TSOP6_3P1X1P7_ONS-M</fp>
+        <fp>TSOP6_3P1X1P7_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SZNSP4201MR6T1G</field>
+        <field name="Footprint">TSOP6_3P1X1P7_ONS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="I/O" type="passive"/>
+        <pin num="4" name="I/O" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="I/O" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN24">
+      <description>USB to UART master bridge, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RI}/CLK" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{WAKEUP}/GPIO.3" type="bidirectional"/>
+        <pin num="12" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="13" name="~{RXT}/GPIO.1" type="bidirectional"/>
+        <pin num="14" name="~{TXT}/GPIO.0" type="bidirectional"/>
+        <pin num="15" name="~{SUSPEND}" type="output"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="~{CTS}" type="input"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="~{DSR}" type="input"/>
+        <pin num="23" name="~{DTR}" type="output"/>
+        <pin num="24" name="~{DCD}" type="input"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="BD33HC0WEFJ-E2">
+      <description>IC REG LINEAR 3.3V 1A 8HTSOP</description>
+      <footprints>
+        <fp>HTSOP-J8_ROM</fp>
+        <fp>HTSOP-J8_ROM-M</fp>
+        <fp>HTSOP-J8_ROM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BD33HC0WEFJ-E2</field>
+        <field name="Footprint">HTSOP-J8_ROM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="VO_S" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="N-C-" type="no_connect"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="N-C-_2" type="no_connect"/>
+        <pin num="7" name="N-C-_3" type="no_connect"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="EPAD" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>D:\Programs\KiCAD6\share\kicad\symbols\/Power_Management.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="VO_S" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VP" pintype="passive"/>
+    </net>
+    <net code="2" name="/D+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="3" name="/D-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="4" name="/EN">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="5" name="/IO0">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="6" name="/RXD">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="7" name="/TXD">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="I/O" pintype="passive"/>
+    </net>
+    <net code="8" name="/~{DTR}">
+      <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="9" name="/~{RTS}">
+      <node ref="Q1" pin="1" pinfunction="E1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VN" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="EPAD" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VN" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="~{TXT}/GPIO.0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{RXT}/GPIO.1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="5" pinfunction="VP" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5" pinfunction="B2" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="24" name="VBUS">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="25" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="~{RI}/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="I/O" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="I/O" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="N-C-" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="N-C-_2" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="N-C-_3" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
