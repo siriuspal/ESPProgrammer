@@ -468,8 +468,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "Exports/Mech/ESPProgrammer.step",
+      "vrml": "Exports/Mech/ESPProgrammer.wrl"
     },
     "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/TemplatewithOnly2Comments.kicad_wks"
   },
